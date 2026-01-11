@@ -207,3 +207,30 @@ A: The logic is ready (the "Thin Slice"), but Phase B will require connecting th
 
 
 **End of Document**
+
+
+
+Here is the contact information text derived from the provided resume for use in a README file:
+
+### 📬 Contact Information
+
+* **Name**: Md Kamruzzaman 
+
+
+* **Location**: House 10, Road 13, Sector 14 Uttara, Dhaka 1230 (https://maps.app.goo.gl/cAwfkbdBfXWYkHGTA)
+
+
+* **Phone**: +8801516573530 
+* **Whats App**: +8801516573530 (https://wa.me/8801516573530)
+
+
+* **Email**: [mdkamruzzamdkamruzzaman099826@gmail.com](mailto:mdkamruzzamdkamruzzaman099826@gmail.com) 
+
+
+* **LinkedIn**: [linkedin.com/in/xplorekamrul/](https://linkedin.com/in/xplorekamrul/) 
+
+
+* **GitHub**: [github.com/xplorekamrul](https://github.com/xplorekamrul) 
+
+
+* **Portfolio**: [infomdkamruzzaman.vercel.app/](https://infomdkamruzzaman.vercel.app/)
