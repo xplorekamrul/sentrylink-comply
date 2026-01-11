@@ -9,9 +9,9 @@ import type { Evidence } from '@/lib/types';
 import { formatDate, formatRelativeTime } from '@/lib/utils';
 import { Plus } from 'lucide-react';
 import { useRouter, useSearchParams } from 'next/navigation';
-import { useState } from 'react';
+import { Suspense, useState } from 'react';
 
-export default function EvidenceVault() {
+function EvidenceVaultContent() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const [evidence, setEvidence] = useState<Evidence[]>(mockEvidence);
@@ -221,5 +221,13 @@ export default function EvidenceVault() {
         </div>
       </Modal>
     </div>
+  );
+}
+
+export default function EvidenceVault() {
+  return (
+    <Suspense fallback={<div className="p-8">Loading...</div>}>
+      <EvidenceVaultContent />
+    </Suspense>
   );
 }
