@@ -22,10 +22,10 @@ export const Sidebar: React.FC = () => {
          {/* Mobile Toggle */}
          <button
             onClick={() => setIsOpen(!isOpen)}
-            className="fixed top-4 left-4 z-40 p-2 lg:hidden hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors"
+            className="fixed top-2 left-4 z-40 p-2 lg:hidden hover:bg-slate-100 dark:hover:bg-slate-800 rounded-lg transition-colors"
          >
             {isOpen ? (
-               <X className="w-6 h-6" />
+               <X className="w-6 h-6 ml-47" />
             ) : (
                <Menu className="w-6 h-6" />
             )}
@@ -37,10 +37,10 @@ export const Sidebar: React.FC = () => {
                }`}
          >
             <div className="p-6 border-b border-slate-200 dark:border-slate-800">
-               <h1 className="text-xl font-bold tracking-tight text-indigo-600 dark:text-indigo-400">
+               <h1 className="  text-xl font-bold tracking-tight text-indigo-600 dark:text-indigo-400">
                   SentryLink
                </h1>
-               <p className="text-xs text-slate-500 dark:text-slate-400 mt-1">
+               <p className="text-xs  text-slate-500 dark:text-slate-400 mt-1">
                   Compliance Manager
                </p>
             </div>
@@ -52,8 +52,8 @@ export const Sidebar: React.FC = () => {
                      href={href}
                      onClick={() => setIsOpen(false)}
                      className={`flex items-center gap-3 px-4 py-3 rounded-lg transition-all duration-200 ${isActive(href)
-                           ? 'bg-indigo-100 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-400 font-medium'
-                           : 'text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800'
+                        ? 'bg-indigo-100 dark:bg-indigo-900/30 text-indigo-600 dark:text-indigo-400 font-medium'
+                        : 'text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-800'
                         }`}
                   >
                      <Icon className="w-5 h-5" />
@@ -66,7 +66,7 @@ export const Sidebar: React.FC = () => {
          {/* Mobile Backdrop */}
          {isOpen && (
             <div
-               className="fixed inset-0 bg-black/50 z-20 lg:hidden"
+               className="fixed inset-0 bg-black/50 z-20 md:hidden"
                onClick={() => setIsOpen(false)}
             />
          )}

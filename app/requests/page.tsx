@@ -51,10 +51,10 @@ export default function BuyerRequests() {
       <div className="p-4 lg:p-8 max-w-7xl mx-auto">
          {/* Header */}
          <div className="mb-8">
-            <h1 className="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-50 mb-2">
+            <h1 className=" text-center lg:text-left text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-50 mb-2">
                Buyer Requests
             </h1>
-            <p className="text-slate-600 dark:text-slate-400">
+            <p className="text-center lg:text-left text-slate-600 dark:text-slate-400">
                Manage compliance document requests from buyers
             </p>
          </div>

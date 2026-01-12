@@ -28,7 +28,7 @@ export default function EvidenceDetail() {
                <Button
                   variant="primary"
                   onClick={() => router.push('/')}
-                  className="mt-4"
+                  className="mt-4 "
                >
                   Back to Vault
                </Button>
@@ -72,10 +72,10 @@ export default function EvidenceDetail() {
                <ArrowLeft className="w-4 h-4" />
                Back to Vault
             </button>
-            <h1 className="text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-50 mb-2">
+            <h1 className=" text-center lg:text-left text-3xl font-bold tracking-tight text-slate-900 dark:text-slate-50 mb-2">
                {evidence.name}
             </h1>
-            <p className="text-slate-600 dark:text-slate-400">
+            <p className="text-center lg:text-left text-slate-600 dark:text-slate-400">
                {evidence.description}
             </p>
          </div>
